@@ -1,0 +1,99 @@
+
+.formdiv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formdiv1 form input{
+
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 1rem;
+}
+.submit{
+    width: 89%;
+    transition: 0.9s ease;
+}
+.submit:hover{
+    background-color: black;
+    color: #fff;
+}
+body{
+    background-color: rgb(185, 167, 167);
+}
+
+
+/*----------------------------- navbar css start ---------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.image img {
+    width: 100%;
+    height: 85vh;
+
+}
+.image2 img {
+    width: 100%;
+    height: 70vh;
+
+}
+
+
+.card4 h5 {
+    font-weight: bold;
+}
+
+.card4 h5:hover {
+
+    color: red;
+    cursor: pointer;
+}
+
+.product h5 {
+    font-weight: bold;
+}
+.logo{
+    font-weight: bold;
+    transition: 0.9s;
+
+}
+.logo:hover{
+   /* background-color: red; */
+   cursor: pointer;
+   color: aqua;
+   transform: scale(0.9);
+   background-color:orange;
+   border-radius: 10px;
+
+}
+.home-navbar{
+    position: sticky;
+    z-index: 1000;
+  
+}
+
+/* navbar list style  */
+
+#navbarNav ul li a{
+transition: 0.5s;
+font-size: 20px;
+font-weight: bold;
+}
+#navbarNav ul li :active{
+
+background-color: rgb(124, 175, 79);
+}
+#navbarNav ul li a:hover{
+background-color: rgb(201, 157, 37);
+border-radius: 10px;
+}
+
+
+/*----------------------------- navbar css ends ---------------- */
